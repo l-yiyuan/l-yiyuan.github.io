@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Yiyuan Li's Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #ff5a5f;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 3px solid #ff5a5f;
+        }
+        .bio {
+            background-color: #fceae9;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn-follow {
+            background-color: #ff5a5f;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn-follow:hover {
+            background-color: #e54a4e;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Personal Website!</h1>
-    <p>I am Yiyuan Li, a computer science student at the University of Melbourne.</p>
+
+    <div class="container">
+        <img class="profile-pic" src="https://via.placeholder.com/150" alt="Profile Picture">
+        <h1>Yiyuan Li</h1>
+        <p>@yiyuanli_official</p>
+
+        <div class="bio">
+            <p>Hello, I'm Yiyuan Li, a computer science student at the University of Melbourne. I enjoy exploring new tech trends, sharing insights from my studies, and working on exciting projects.</p>
+            <p>On this page, I will share my learning experiences, project highlights, and some personal updates. Hope you find something inspiring!</p>
+        </div>
+
+        <button class="btn-follow">Follow Me</button>
+    </div>
+
 </body>
 </html>
